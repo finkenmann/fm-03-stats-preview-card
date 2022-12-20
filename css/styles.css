@@ -68,7 +68,7 @@ h1 {
 }
 
 .image {
-  background-color: var(--clr-primary--600);
+  background-color: var(--clr-primary--400);
 }
 
 .img-desktop {
@@ -76,7 +76,8 @@ h1 {
 }
 
 .image img {
-  mix-blend-mode: soft-light;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 
 article {
